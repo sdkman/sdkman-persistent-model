@@ -1,4 +1,4 @@
-package io.sdkman.domain
+package io.sdkman.model
 
 case class Application(alive: String, stableCliVersion: String, betaCliVersion: String)
 

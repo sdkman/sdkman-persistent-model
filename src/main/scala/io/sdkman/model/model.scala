@@ -35,7 +35,12 @@ case object SHA512 extends ChecksumAlgorithm {
   override val priority = 5
 }
 
-case class Application(alive: String, stableCliVersion: String, betaCliVersion: String)
+case class Application(
+    alive: String,
+    stableCliVersion: String,
+    betaCliVersion: String,
+    stableNativeCliVersion: String
+)
 
 case class Candidate(
     candidate: String,

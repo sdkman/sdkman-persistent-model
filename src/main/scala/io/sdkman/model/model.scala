@@ -39,7 +39,8 @@ case class Application(
     alive: String,
     stableCliVersion: String,
     betaCliVersion: String,
-    stableNativeCliVersion: String
+    stableNativeCliVersion: String,
+    betaNativeCliVersion: String
 )
 
 case class Candidate(
